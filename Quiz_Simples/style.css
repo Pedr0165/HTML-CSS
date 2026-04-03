@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: #FDEFB2;
+    color: #3d251e;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+header{
+    padding: 2rem;
+    background-color: #F25600;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {  
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2 {
+    color: #F9AF40;
+    font-size: 1.2rem;
+}
+
+input[type="radio"],input[type="checkbox"] {
+    accent-color: #3d251e;
+}
+
+input[type="text"],input[type="password"],input[type="date"],input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #3d251e;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: #BD9E78;   
+}
+
+select {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid#3d251e;
+    outline: none;
+    border-radius: 5px;
+}
+
+img { 
+    width: 5rem;
+    border-radius: 5px;   
+}
+
+table {
+     width: 100%;
+     border-collapse: collapse;    
+}
+th {
+    background-color: #BD9E78;
+    color: #3d251e;
+    padding: 1rem;
+}
+td {
+    color: #3d251e;
+    padding: 1rem;
+    text-align: center;   
+}
+
+tfoot td{
+    color: #3d251e;
+    background-color: #BD9E78;
+}
+details { 
+    background-color:#BD9E78;
+    border-radius: 5px;
+    padding: 1rem;
+}
+summary {
+    color: #3d251e;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+ul {
+    margin-left: 1.5rem;
+}
+
+ul li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid#3d251e;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color:#F9AF40;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid#3d251e;
+}
+button {
+    background-color: #BD9E78;
+    border: none;
+    padding: 0.5rem;
+    color:#3d251e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+   background-color: #F25600;
+   padding: 2rem;
+   text-align: center;
+}
+
+.paragrafo-footer { 
+    color: #3d251e;
+}
+footer a {
+    text-decoration: none;
+    color: #BD9E78;
+}
+
